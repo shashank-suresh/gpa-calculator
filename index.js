@@ -126,7 +126,10 @@ function calc(n) {
             }
         }
 
+        console.log(grade);
         para.appendChild(grade);
+        console.log(para);
+        console.log(results);
         results.appendChild(para);
         console.log(sum);
     }
