@@ -144,6 +144,7 @@ function calc(n) {
 
 // Reset the input fields
 function res(n) {
+    results.innerHTML = '';
     for (i = 0; i < n; i++) {
         var inp = document.getElementById("mark" + i);
         var mark = inp.value;
